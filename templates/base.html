@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{data.user.display_name}} | {{data.playlist.name}}</title>
+	<link rel="stylesheet" href="../static/css/master.css">
+
+</head>
+
+<body>
+	<header>
+		<a id="title" href="{{data.user.external_urls.spotify}}">{{data.user.display_name}}
+		</a>
+		<nav>
+			<a class="tab" href="/">Log out</a>
+		</nav>
+	</header>
+	<main>
+		<a class="playlist" href="{{data.playlist.external_urls.spotify}}">
+			<img class="playlist-image" src="{{data.playlist.images.0.url}}" alt="">
+			<div class="playlist-info">
+				<h2 class="playlist-title">{{data.playlist.name}}</h2>
+				<!-- <a class="playlist-owner" href="{{data.playlist.owner.external_urls.spotify}}">
+					<span>{{data.playlist.owner.display_name}}</span>
+				</a> -->
+				<!-- <p class="playlist-description">
+					{{data.playlist.description}}
+				</p> -->
+			</div>
+		</a>
+
+		<h4>Parsed code</h4>
+		<pre>{{data.code}}</pre>
+		<h4>Output</h4>
+		<pre>{{data.output}}</pre>
+	</main>
+</body>
+
+</html>
