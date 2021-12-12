@@ -70,7 +70,6 @@ def login():
 @app.route('/callback', methods=['GET', 'POST'])
 def callback():
     code = request.args.get('code')
-    print('Code:', code, '\n')
 
     AUTH_URL = 'https://accounts.spotify.com/api/token/'
     AUTH_64 = base64.b64encode(
