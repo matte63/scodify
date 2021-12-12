@@ -1,5 +1,9 @@
 # Scodify
 
+Spotify playlist is the best IDE.
+
+
+
 ## Dependencies
 
 ```
@@ -63,3 +67,11 @@ or
 ```
 python3 app.py
 ```
+
+
+## Notes
+
+This program is not case sensitive, all the text will be lowered.
+
+In order to actually run the code you need white space separators, this program automatically replaces '\\n' with '\n'.
+
