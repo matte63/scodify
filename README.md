@@ -73,5 +73,5 @@ python3 app.py
 
 This program is not case sensitive, all the text will be lowered.
 
-In order to actually run the code you need white space separators, this program automatically replaces '\\n' with '\n'.
+In order to actually run the code you need white space separators, this program automatically replaces `'\\n'` with `'\n'`.
 
