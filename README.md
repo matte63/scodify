@@ -45,8 +45,8 @@ Create a `.env` file in the project directory and set the following variables.
 | `SPOTIFY_ID`    | Spotify ID    |
 
 
-The *Spotify ID* is the base-62 identifier at the end of a Spotify link. It does not identify the type of resource, in order to make this program work you need it to be a **playlist** one.
-You can get that identifier from a playlist link, for example the *Spotify ID* of [this playlist](
+The *Spotify ID* is the base-62 identifier that you usually can find at the end of a Spotify URL. It does not identify the type of resource, in order to make this program work you need it to be a **playlist** one.
+You can get that identifier from a playlist URL, for example the *Spotify ID* of [this playlist](
 https://open.spotify.com/playlist/3cEYpjA9oz9GiPac4AsH4n) is `3cEYpjA9oz9GiPac4AsH4n`.
 
 ## Run the application
