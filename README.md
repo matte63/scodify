@@ -6,11 +6,19 @@ Spotify playlist is the best IDE.
 
 ## Dependencies
 
+Required:
+
 ```
 gcc
 python3
 python3-flask
 python3-dotenv
+```
+
+
+*Optional* (suggested):
+
+```
 python3-venv
 ```
 
@@ -45,6 +53,11 @@ https://open.spotify.com/playlist/3cEYpjA9oz9GiPac4AsH4n) is `3cEYpjA9oz9GiPac4A
 
 ```
 cd scodify
+```
+
+*Suggested*:
+
+```
 python3 -m venv venv
 . venv/bin/activate
 ```
@@ -56,7 +69,7 @@ export FLASK_ENV=development
 export FLASK_APP=app
 ```
 
-Finally run
+Finally run with
 
 ```
 flask run
