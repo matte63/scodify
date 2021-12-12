@@ -11,7 +11,7 @@ import os
 webapp_spotify/
 	static/
 		css/
-		master.css
+			master.css
 	templates/
 		base.html
 		login.html
