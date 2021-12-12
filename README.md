@@ -90,3 +90,5 @@ In order to actually run the code you need white space separators, this program 
 
 It will not handle errors and exceptions.
 
+To be fair [that](https://open.spotify.com/playlist/5vfVQeT5Zwhwppar3gGzQ1) is the only playlist that actually compiles and runs.
+
