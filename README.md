@@ -1,6 +1,6 @@
 # Scodify
 
-Spotify playlist is the best IDE.
+Spotify playlists are the best IDE.
 
 
 
