@@ -84,11 +84,11 @@ python3 app.py
 
 ## Notes
 
-This program is not case sensitive, all the text will be lowered.
+* This program is not case sensitive, all the text will be lowered.
 
-In order to actually run the code you need white space separators, this program automatically replaces `'\\n'` with `'\n'`.
+* In order to actually run the code you need white space separators, this program automatically replaces `'\\n'` with `'\n'`.
 
-It will not handle errors and exceptions.
+* It will not handle errors and exceptions.
 
-To be fair [that](https://open.spotify.com/playlist/5vfVQeT5Zwhwppar3gGzQ1) is the only playlist that actually compiles and runs.
+* To be fair [that](https://open.spotify.com/playlist/5vfVQeT5Zwhwppar3gGzQ1) is the only playlist that actually compiles and runs.
 
